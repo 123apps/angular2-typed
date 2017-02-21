@@ -1,0 +1,20 @@
+{
+  "name": "angular2-typed",
+  "version": "1.0.0-alpha1",
+  "description": "Typed is a great free Angular 2 directive that animates typing string",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123apps/angular2-typed.git"
+  },
+  "keywords": [
+    "typed",
+    "angular2"
+  ],
+  "author": "123Apps",
+  "bugs": {
+    "url": "https://github.com/123apps/angular2-typed.git/issues"
+  },
+  "homepage": "https://github.com/123apps/angular2-typed.git#readme"
+}
