@@ -1,4 +1,3 @@
-export { BotDetectCaptchaModule } from './src/botdetect-captcha.module';
-export { CaptchaComponent } from './src/captcha.component';
-export { CaptchaSettings } from './src/config';
-export { UIValidateCaptchaDirective } from './src/ui-validate-captcha.directive';
+export { TypedModule } from './src/typed.module';
+export { TypedComponent } from './src/typed.component';
+export { TypedDirective } from './src/typed.directive';
