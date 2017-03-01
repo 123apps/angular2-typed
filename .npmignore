@@ -1,7 +1,6 @@
-README.md
-tsconfig.json
-.npmignore
-.idea
+node_modules
+npm-debug.log
 *.ts
 !*.d.ts
-factories
+.DS_Store
+Thumbs.db

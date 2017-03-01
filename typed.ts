@@ -1,8 +1,8 @@
 import { NgModule, ModuleWithProviders, OpaqueToken } from '@angular/core';
 import { HttpModule } from '@angular/http';
 
-import { TypedComponent } from './src/typed.component';
-import { TYPED_SETTINGS } from './src/config';
+import { TypedComponent } from './typed.component';
+import { TYPED_SETTINGS } from './config';
 
 @NgModule({
   imports: [

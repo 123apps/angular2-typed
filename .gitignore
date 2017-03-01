@@ -1,11 +1,7 @@
 node_modules
-typings
-factories
-
-
-# misc
-*.log
-.idea
-*.d.ts
+npm-debug.log
 *.js
-*.metadata.json
+*.map
+*.d.ts
+.DS_Store
+Thumbs.db

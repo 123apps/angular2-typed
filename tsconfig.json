@@ -1,17 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "module": "commonjs",
-    "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "target": "ES5",
+    "removeComments": false,
     "emitDecoratorMetadata": true,
-    "declaration": true,
-    "lib": ["es6", "dom"]
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true
   },
   "files": [
     "index.ts"
   ],
-  "angularCompilerOptions": {
-    "genDir": "factories"
-  }
+  "exclude": [
+    "node_modules"
+  ]
 }
