@@ -1,8 +1,8 @@
 {
   "name": "angular2-typed",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typed is a great free Angular 2 directive that animates typing string",
-  "typings": "index.d.ts",
+  "main": "typed.js",
   "scripts": {
     "tsc": "tsc"
   },
