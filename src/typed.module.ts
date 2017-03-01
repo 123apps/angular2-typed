@@ -18,7 +18,7 @@ import { TYPED_SETTINGS } from './config';
 export class TypedModule {
   static forRoot(config: any): ModuleWithProviders {
     return {
-      ngModule: BotDetectCaptchaModule,
+      ngModule: TypedModule,
       providers: [
         {
           provide: TYPED_SETTINGS,
