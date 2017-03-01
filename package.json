@@ -5,8 +5,7 @@
   "main": "angular2-typed.js",
   "scripts": {
     "dev": "tsc --watch",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "./node_modules/.bin/ngc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "angular2",
