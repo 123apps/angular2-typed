@@ -1,6 +1,6 @@
 {
   "name": "angular2-typed",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
@@ -24,15 +24,20 @@
     "url": "https://github.com/username/repo/issues"
   },
   "main": "index.js",
-  "typings": "index.d.ts",
-  "devDependencies": {
-    "@angular/core": "^2.0.0",
-    "@angular/platform-browser": "^2.4.5",
-    "codelyzer": "^3.0.0-beta.0",
-    "rxjs": "^5.0.1",
-    "tslint": "^4.5.1",
-    "typescript": "^2.0.2"
-  },
   "dependencies": {
+  },
+  "devDependencies": {
+    "@angular/common": "^2.4.9",
+    "@angular/compiler": "^2.4.9",
+    "@angular/compiler-cli": "^2.4.9",
+    "@angular/core": "^2.4.9",
+    "@angular/forms": "^2.4.9",
+    "@angular/http": "^2.4.9",
+    "@angular/platform-browser": "^2.4.9",
+    "@types/es6-shim": "^0.31.32",
+    "codelyzer": "^3.0.0-beta.3",
+    "rxjs": "^5.2.0",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
   }
 }

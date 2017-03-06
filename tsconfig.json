@@ -5,8 +5,6 @@
     "target": "ES5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "allowUnusedLabels": false,
-    "noImplicitReturns": true,
     "sourceMap": true,
     "declaration": true
   },
@@ -15,8 +13,5 @@
   ],
   "exclude": [
     "node_modules"
-  ],
-  "angularCompilerOptions": {
-    "strictMetadataEmit": true
-  }
+  ]
 }
