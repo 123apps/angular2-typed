@@ -1,6 +1,6 @@
 {
   "name": "angular2-typed",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "scripts": {
     "clean": "rimraf *.d.ts *.js *.map *.metadata.json src/**/*.d.ts src/**/*.js src/**/*.map src/**/*.metadata.json src/**/*.js.map",
     "build": "ngc -p tsconfig.json",
