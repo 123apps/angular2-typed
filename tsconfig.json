@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "ES5",
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
     "declaration": true
   },
   "files": [
@@ -13,5 +15,9 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "angularCompilerOptions": {
+    "skipMetadataEmit": false,
+    "skipTemplateCodegen": true
+  }
 }

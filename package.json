@@ -1,12 +1,11 @@
 {
   "name": "angular2-typed",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "scripts": {
+    "clean": "rimraf *.d.ts *.js *.map *.metadata.json src/**/*.d.ts src/**/*.js src/**/*.map src/**/*.metadata.json src/**/*.js.map",
     "build": "ngc -p tsconfig.json",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
-    "test": "tsc && karma start",
-    "prepublish": "tsc",
-    "tsc": "tsc"
+    "prepublish": "ngc"
   },
   "repository": {
     "type": "git",
@@ -36,6 +35,7 @@
     "@angular/platform-browser": "^2.4.9",
     "@types/es6-shim": "^0.31.32",
     "codelyzer": "^3.0.0-beta.3",
+    "rimraf": "^2.6.1",
     "rxjs": "^5.2.0",
     "tslint": "^4.5.1",
     "typescript": "^2.2.1"
